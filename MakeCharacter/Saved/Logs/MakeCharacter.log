@@ -1356,3 +1356,465 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.02.19-23.17.36:720][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
 [2023.02.19-23.17.36:724][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2023.02.19-23.19.35:453][ 79]LogDerivedDataCache: C:/Users/to_sa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.334 and deleted 0 files with total size 0 MiB. Scanned 7926 files in 7719 folders with total size 89 MiB.
+[2023.02.20-00.19.36:169][879]LogDerivedDataCache: C:/Users/to_sa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.049 and deleted 0 files with total size 0 MiB. Scanned 7926 files in 7719 folders with total size 89 MiB.
+[2023.02.20-01.19.35:203][674]LogDerivedDataCache: C:/Users/to_sa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:14.082 and deleted 0 files with total size 0 MiB. Scanned 7926 files in 7719 folders with total size 89 MiB.
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Total job queries 111, among them cache hits 10 (9.01%)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Tracking 100 distinct input hashes that result in 81 distinct outputs (81.00%)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: RAM used: 0.87 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Shaders Compiled: 100
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Jobs assigned 101, completed 100 (99.01%)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Average time worker was idle: 293.02 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Time job spent in pending queue: average 2.69 s, longest 9.61 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Job execution time: average 3.25 s, max 8.92 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Job life time (pending + execution): average 5.97 s, max 11.86
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.46 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Jobs were issued in 63 batches (only local compilation was used), average 1.60 jobs/batch
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Average processing rate: 6.91 jobs/sec
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Total thread time: 88.24 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Total thread preprocess time: 4.03 s
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Percentage time preprocessing: 4.56%
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Effective parallelization: 6.10 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.57 sec, max 1.57 sec, min 1.57 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 26.04% of total time (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.05% of total time (compiled   11 times, average 0.97 sec, max 1.44 sec, min 0.63 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.14% of total time (compiled   11 times, average 0.81 sec, max 0.90 sec, min 0.69 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.03% of total time (compiled    9 times, average 0.69 sec, max 0.78 sec, min 0.52 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.33% of total time (compiled    9 times, average 0.52 sec, max 0.81 sec, min 0.27 sec)
+[2023.02.20-01.29.35:851][500]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.30.01:214][786]LogContentBrowser: Deferred new asset folder creation: 新規フォルダ
+[2023.02.20-01.30.01:282][786]LogContentBrowser: Creating deferred item: 新規フォルダ
+[2023.02.20-01.30.01:295][787]LogWindowsTextInputMethodSystem: Activated input method: 日本語 (日本) - Microsoft IME (TSF IME).
+[2023.02.20-01.30.01:295][787]LogContentBrowser: Renaming the item being created (Deferred Item: 新規フォルダ).
+[2023.02.20-01.30.09:484][443]LogContentBrowser: Attempting asset rename: 新規フォルダ -> Blueprints
+[2023.02.20-01.30.09:484][443]LogContentBrowser: End creating deferred item 新規フォルダ
+[2023.02.20-01.30.18:464][193]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.30.18:464][193]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.30.18:464][193]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.30.20:632][193]LogSlate: Window '親クラスを選択' being destroyed
+[2023.02.20-01.30.20:642][193]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.02.20-01.30.20:646][193]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.02.20-01.30.20:670][195]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.02.20-01.30.40:847][799]LogContentBrowser: Attempting asset rename: NewBlueprint -> MyCharacter
+[2023.02.20-01.30.40:869][799]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.02.20-01.30.52:697][745]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter
+[2023.02.20-01.30.52:699][745]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.30.53:925][745]LogViewport: Scene viewport resized to 1213x686, mode Windowed.
+[2023.02.20-01.31.29:635][913]LogSlate: Took 0.014490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.02.20-01.39.49:622][777]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Total job queries 117, among them cache hits 10 (8.55%)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Tracking 103 distinct input hashes that result in 84 distinct outputs (81.55%)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: RAM used: 0.90 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Shaders Compiled: 103
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Jobs assigned 107, completed 103 (96.26%)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Average time worker was idle: 852.38 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Time job spent in pending queue: average 2.55 s, longest 9.61 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Job execution time: average 3.18 s, max 8.92 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Job life time (pending + execution): average 5.82 s, max 11.86
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.57 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Jobs were issued in 69 batches (only local compilation was used), average 1.55 jobs/batch
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Average processing rate: 6.62 jobs/sec
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Total thread time: 90.12 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Total thread preprocess time: 4.12 s
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Percentage time preprocessing: 4.58%
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Effective parallelization: 5.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.57 sec, max 1.57 sec, min 1.57 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 25.50% of total time (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.80% of total time (compiled   11 times, average 0.97 sec, max 1.44 sec, min 0.63 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.49% of total time (compiled   13 times, average 0.80 sec, max 0.90 sec, min 0.69 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.88% of total time (compiled    9 times, average 0.69 sec, max 0.78 sec, min 0.52 sec)
+[2023.02.20-01.39.50:666][863]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.22% of total time (compiled    9 times, average 0.52 sec, max 0.81 sec, min 0.27 sec)
+[2023.02.20-01.39.50:667][863]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.39.53:075][ 27]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim
+[2023.02.20-01.39.53:078][ 27]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim
+[2023.02.20-01.39.53:283][ 27]LogSkeletalMesh: Building Skeletal Mesh SKM_Manny...
+[2023.02.20-01.39.53:338][ 27]LogSkeletalMesh: Display: スキン処理されたアセットの準備ができるのを待ってます。0/1 (SKM_Manny)…
+[2023.02.20-01.39.54:479][ 27]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 2 
+[2023.02.20-01.39.57:658][ 27]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 3 
+[2023.02.20-01.40.01:674][ 27]LogSkeletalMesh: Built Skeletal Mesh [8.39s] /Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny
+[2023.02.20-01.40.01:733][ 27]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim
+[2023.02.20-01.40.01:733][ 27]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim
+[2023.02.20-01.40.01:872][ 28]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim
+[2023.02.20-01.40.01:872][ 28]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim
+[2023.02.20-01.40.02:046][ 29]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim
+[2023.02.20-01.40.02:046][ 29]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim
+[2023.02.20-01.40.02:061][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim
+[2023.02.20-01.40.02:061][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim
+[2023.02.20-01.40.02:154][ 31]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim
+[2023.02.20-01.40.02:154][ 31]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim
+[2023.02.20-01.40.02:188][ 32]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim
+[2023.02.20-01.40.02:189][ 32]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim
+[2023.02.20-01.40.06:148][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.02.20-01.40.09:060][256]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.40.09:086][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.40.09:473][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.40.09:477][256]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.40.09:477][256]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter0B0F6997422244FF5AB2BF918C656424.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.40.09:481][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 396 ms (total: 1.18 sec)
+[2023.02.20-01.40.09:486][256]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.40.09:486][256]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.40.11:279][355]BlueprintLog: New page: MyCharacter をコンパイル
+[2023.02.20-01.40.11:354][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Total job queries 139, among them cache hits 16 (11.51%)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Tracking 118 distinct input hashes that result in 95 distinct outputs (80.51%)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: RAM used: 1.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Shaders Compiled: 118
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Jobs assigned 123, completed 118 (95.93%)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Average time worker was idle: 689.79 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Time job spent in pending queue: average 2.22 s, longest 9.61 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Job execution time: average 2.89 s, max 8.92 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Job life time (pending + execution): average 5.20 s, max 11.86
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 18.76 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Jobs were issued in 85 batches (only local compilation was used), average 1.45 jobs/batch
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Average processing rate: 6.29 jobs/sec
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Total thread time: 97.28 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Total thread preprocess time: 4.51 s
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Percentage time preprocessing: 4.64%
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Effective parallelization: 5.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.57 sec, max 1.57 sec, min 1.57 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 23.62% of total time (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.47% of total time (compiled   15 times, average 0.94 sec, max 1.44 sec, min 0.63 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.99% of total time (compiled   15 times, average 0.78 sec, max 0.90 sec, min 0.65 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.58% of total time (compiled   11 times, average 0.67 sec, max 0.78 sec, min 0.52 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.74% of total time (compiled   11 times, average 0.51 sec, max 0.81 sec, min 0.27 sec)
+[2023.02.20-01.43.26:330][467]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.43.31:596][807]Cmd: MODE GRID=0
+[2023.02.20-01.43.32:373][858]Cmd: MODE GRID=1
+[2023.02.20-01.44.03:292][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.02.20-01.44.04:463][278]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.44.04:491][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.44.04:595][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.44.04:598][278]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.44.04:598][278]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter0344978B48B31700AFC946B019F4F3E5.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.44.04:607][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 1.29 sec)
+[2023.02.20-01.44.04:611][278]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.44.04:611][278]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.44.06:254][377]BlueprintLog: New page: MyCharacter をコンパイル
+[2023.02.20-01.44.06:332][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.02.20-01.44.58:814][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.02.20-01.45.00:163][658]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.45.00:183][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.45.00:244][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.45.00:248][658]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.45.00:248][658]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter274EA0D74BA03FE516B3309D86C95C9C.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.45.00:253][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.36 sec)
+[2023.02.20-01.45.00:259][658]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.45.00:259][658]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.46.24:030][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.02.20-01.46.24:031][ 70]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.030
+[2023.02.20-01.46.24:031][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Blueprints/MyCharacter] ([2] browsable assets)...
+[2023.02.20-01.46.24:045][ 70]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter]
+[2023.02.20-01.46.24:045][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Blueprints/MyCharacter]
+[2023.02.20-01.46.24:047][ 70]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Blueprints/MyCharacter_Auto1
+[2023.02.20-01.46.24:048][ 70]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter_Auto114DCCE44413D1F84AEF6BB8790C6AB69.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/Autosaves/Game/Characters/Blueprints/MyCharacter_Auto1.uasset'
+[2023.02.20-01.46.24:048][ 70]LogFileHelpers: Auto-saving content packages took 0.017
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Total job queries 159, among them cache hits 28 (17.61%)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Tracking 131 distinct input hashes that result in 106 distinct outputs (80.92%)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: RAM used: 1.11 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.14%
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Shaders Compiled: 131
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Jobs assigned 131, completed 131 (100.00%)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Average time worker was idle: 632.73 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Time job spent in pending queue: average 2.09 s, longest 9.61 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Job execution time: average 2.70 s, max 8.92 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Job life time (pending + execution): average 4.79 s, max 11.86
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.65 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Jobs were issued in 93 batches (only local compilation was used), average 1.41 jobs/batch
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Average processing rate: 6.05 jobs/sec
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Total thread time: 105.08 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Total thread preprocess time: 5.01 s
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Percentage time preprocessing: 4.77%
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Effective parallelization: 4.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.57 sec, max 1.57 sec, min 1.57 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 21.86% of total time (compiled   17 times, average 1.35 sec, max 1.78 sec, min 0.98 sec)
+[2023.02.20-01.46.29:979][399]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.43% of total time (compiled   19 times, average 0.91 sec, max 1.44 sec, min 0.63 sec)
+[2023.02.20-01.46.29:980][399]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.15% of total time (compiled   19 times, average 0.78 sec, max 0.98 sec, min 0.57 sec)
+[2023.02.20-01.46.29:980][399]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.50% of total time (compiled   12 times, average 0.66 sec, max 0.78 sec, min 0.50 sec)
+[2023.02.20-01.46.29:980][399]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.63% of total time (compiled   12 times, average 0.49 sec, max 0.81 sec, min 0.27 sec)
+[2023.02.20-01.46.29:980][399]LogShaderCompilers: Display: ================================================
+[2023.02.20-01.47.10:616][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.02.20-01.47.11:943][764]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.47.11:962][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.47.12:027][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.47.12:031][764]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.47.12:031][764]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter831BD4E244666E408EB07A97476C83DB.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.47.12:037][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.44 sec)
+[2023.02.20-01.47.12:042][764]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.47.12:042][764]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.47.14:359][903]BlueprintLog: New page: MyCharacter をコンパイル
+[2023.02.20-01.47.14:424][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.20-01.47.20:679][265]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.47.20:685][265]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.47.20:691][265]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.47.20:691][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.47.39:641][748]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.47.39:641][748]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.47.39:641][748]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.20-01.47.41:134][916]LogSlate: Took 0.016946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.02.20-01.47.47:668][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.02.20-01.47.49:014][438]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.47.49:024][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.47.49:058][438]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2023.02.20-01.47.49:058][438]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/BP_ThirdPersonGameMode1E2995D34F0EFD71B3F5BA80BE6C830C.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2023.02.20-01.47.49:065][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 1.48 sec)
+[2023.02.20-01.47.49:070][438]AssetCheck: New page: アセット保存：BP_ThirdPersonGameMode
+[2023.02.20-01.47.49:070][438]LogContentValidation: Display: /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode を検証しています
+[2023.02.20-01.47.51:656][637]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.02.20-01.47.51:661][637]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.02.20-01.47.51:664][637]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.20-01.47.51:664][637]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.20-01.47.51:664][637]LogWorldPartition: Display: GetPartitionedActors took 744 us
+[2023.02.20-01.47.51:664][637]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2023.02.20-01.47.51:668][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.20-01.47.51:672][637]PIE: New page: PIEセッション: ThirdPersonMap (2023/02/20 19:47:51)
+[2023.02.20-01.47.51:680][637]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.02.20-01.47.51:680][637]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.20-01.47.51:681][637]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.47.51:687][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005256s)
+[2023.02.20-01.47.51:687][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005570s)
+[2023.02.20-01.47.51:687][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.47.51:689][637]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.02.20-01.47.51:689][637]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.20-01.47.51:689][637]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.20-01.47.51:689][637]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.20-01.47.51:690][637]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.02.20-01.47.51:690][637]LogWorldPartition: Display: WorldPartition initialize took 876 us (total: 92 ms)
+[2023.02.20-01.47.51:690][637]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2023.02.20-01.47.51:709][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.02.20-01.47.51:711][637]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.02.20-01.47.51:711][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.20-01.47.51:711][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.20-01.47.51:711][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.20-01.47.51:711][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.20-01.47.51:711][637]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.20-01.47.51:712][637]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.20-01.47.51:712][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.20-01.47.51:712][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.20-01.47.51:712][637]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.20-01.47.51:712][637]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.20-01.47.51:712][637]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.20-01.47.51:714][637]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.20-01.47.51:731][637]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.02.20-01.47.51:731][637]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.20-01.47.51:731][637]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.20-01.47.51:731][637]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.20-01.47.51:731][637]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.02.20-01.47.51:731][637]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.02.20-01.47.51:733][637]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.02.20-01.47.51:733][637]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.02.20-01.47.51:733][637]LogInit: FAudioDevice initialized.
+[2023.02.20-01.47.51:733][637]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.02.20-01.47.51:743][637]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.02.20-01.47.51:744][637]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.02.20-10.47.51
+[2023.02.20-01.47.51:746][637]LogWorld: Bringing up level for play took: 0.002257
+[2023.02.20-01.47.51:748][637]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.02.20-01.47.51:781][637]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=90.212
+[2023.02.20-01.47.51:783][637]PIE: サーバーにログインしました
+[2023.02.20-01.47.51:784][637]PIE: PIE合計開始時間 0.124 秒。
+[2023.02.20-01.48.03:930][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.48.03:930][197]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.48.03:931][197]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.48.03:931][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.48.03:932][197]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.02.20-01.48.03:936][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.20-01.48.03:941][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.48.03:966][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.48.03:967][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.02.20-01.48.03:970][197]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.02.20-01.48.04:018][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2023.02.20-01.48.04:039][198]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.02.20-01.48.04:428][201]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.02.20-01.48.18:526][ 38]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter
+[2023.02.20-01.48.18:526][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.48.19:085][ 38]LogSlate: Took 0.000926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.20-01.49.06:599][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.02.20-01.49.07:986][705]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.49.07:997][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.49.08:085][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.49.08:088][705]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.49.08:088][705]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter15E621DA4CEEEC9678BDA888E12A3A8E.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.49.08:094][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 1.58 sec)
+[2023.02.20-01.49.08:100][705]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.49.08:100][705]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.49.09:969][815]BlueprintLog: New page: MyCharacter をコンパイル
+[2023.02.20-01.49.10:028][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.02.20-01.49.11:956][928]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.49.11:962][928]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.49.11:966][928]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.49.11:966][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.49.14:148][ 65]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.02.20-01.49.14:151][ 65]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.02.20-01.49.14:163][ 65]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.20-01.49.14:163][ 65]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.20-01.49.14:163][ 65]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 748 us)
+[2023.02.20-01.49.14:163][ 65]LogWorldPartition: Display: GenerateStreaming took 169 us (total: 1 ms)
+[2023.02.20-01.49.14:163][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.20-01.49.14:163][ 65]PIE: New page: PIEセッション: ThirdPersonMap (2023/02/20 19:49:14)
+[2023.02.20-01.49.14:163][ 65]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.49.14:167][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003351s)
+[2023.02.20-01.49.14:167][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003374s)
+[2023.02.20-01.49.14:167][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.49.14:168][ 65]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.02.20-01.49.14:168][ 65]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.20-01.49.14:168][ 65]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.20-01.49.14:168][ 65]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.20-01.49.14:169][ 65]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.02.20-01.49.14:169][ 65]LogWorldPartition: Display: WorldPartition initialize took 877 us (total: 93 ms)
+[2023.02.20-01.49.14:169][ 65]LogPlayLevel: PIE: World Init took: (0.001800s)
+[2023.02.20-01.49.14:191][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.02.20-01.49.14:199][ 65]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.20-01.49.14:199][ 65]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.20-01.49.14:199][ 65]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.20-01.49.14:199][ 65]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.20-01.49.14:199][ 65]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.20-01.49.14:199][ 65]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.20-01.49.14:201][ 65]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.20-01.49.14:215][ 65]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.02.20-01.49.14:215][ 65]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.20-01.49.14:215][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.20-01.49.14:215][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.20-01.49.14:216][ 65]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.02.20-01.49.14:216][ 65]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.02.20-01.49.14:218][ 65]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.02.20-01.49.14:218][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.02.20-01.49.14:218][ 65]LogInit: FAudioDevice initialized.
+[2023.02.20-01.49.14:218][ 65]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2023.02.20-01.49.14:220][ 65]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.02.20-01.49.14:222][ 65]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.02.20-10.49.14
+[2023.02.20-01.49.14:222][ 65]LogWorld: Bringing up level for play took: 0.001358
+[2023.02.20-01.49.14:224][ 65]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.02.20-01.49.14:228][ 65]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=90.212
+[2023.02.20-01.49.14:228][ 65]PIE: サーバーにログインしました
+[2023.02.20-01.49.14:228][ 65]PIE: PIE合計開始時間 0.077 秒。
+[2023.02.20-01.49.30:218][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.49.30:218][993]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.49.30:218][993]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.49.30:218][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.49.30:218][993]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.02.20-01.49.30:225][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.20-01.49.30:228][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.49.30:251][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.49.30:251][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.20-01.49.30:253][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.20-01.49.30:261][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.02.20-01.49.30:452][994]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.02.20-01.51.03:909][ 76]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter
+[2023.02.20-01.51.03:909][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.51.52:792][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.02.20-01.51.54:341][876]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.02.20-01.51.54:353][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.20-01.51.54:435][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Blueprints/MyCharacter" FILE="../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset" SILENT=true
+[2023.02.20-01.51.54:440][876]LogSavePackage: Moving output files for package: /Game/Characters/Blueprints/MyCharacter
+[2023.02.20-01.51.54:441][876]LogSavePackage: Moving '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Saved/MyCharacter98915FF84C67D8C50C7DC284D9D1D352.tmp' to '../../../../../../GitHub/UE5_MakeCharacter/MakeCharacter/Content/Characters/Blueprints/MyCharacter.uasset'
+[2023.02.20-01.51.54:447][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 1.67 sec)
+[2023.02.20-01.51.54:454][876]AssetCheck: New page: アセット保存：MyCharacter
+[2023.02.20-01.51.54:454][876]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Characters/Blueprints/MyCharacter.MyCharacter を検証しています
+[2023.02.20-01.51.56:350][982]BlueprintLog: New page: MyCharacter をコンパイル
+[2023.02.20-01.51.56:417][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.20-01.52.04:210][430]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.52.04:223][430]LogSlate: Window 'MyCharacter' being destroyed
+[2023.02.20-01.52.04:226][430]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.52.04:226][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.52.05:510][506]LogDebuggerCommands: Repeating last play command: 選択ビューポート
+[2023.02.20-01.52.05:513][506]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.02.20-01.52.05:515][506]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.20-01.52.05:515][506]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.20-01.52.05:515][506]LogWorldPartition: Display: GetPartitionedActors took 5 us (total: 753 us)
+[2023.02.20-01.52.05:515][506]LogWorldPartition: Display: GenerateStreaming took 186 us (total: 1 ms)
+[2023.02.20-01.52.05:515][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.20-01.52.05:515][506]PIE: New page: PIEセッション: ThirdPersonMap (2023/02/20 19:52:05)
+[2023.02.20-01.52.05:515][506]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.52.05:519][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004082s)
+[2023.02.20-01.52.05:519][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004117s)
+[2023.02.20-01.52.05:519][506]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.20-01.52.05:519][506]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.02.20-01.52.05:519][506]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.20-01.52.05:519][506]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.20-01.52.05:519][506]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.20-01.52.05:521][506]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.02.20-01.52.05:521][506]LogWorldPartition: Display: WorldPartition initialize took 863 us (total: 94 ms)
+[2023.02.20-01.52.05:521][506]LogPlayLevel: PIE: World Init took: (0.001804s)
+[2023.02.20-01.52.05:543][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.02.20-01.52.05:551][506]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.20-01.52.05:551][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.20-01.52.05:551][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.20-01.52.05:551][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.20-01.52.05:551][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.20-01.52.05:551][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.20-01.52.05:553][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.20-01.52.05:567][506]LogAudioMixer: Display: Using Audio Hardware Device SHARP HDMI (NVIDIA High Definition Audio)
+[2023.02.20-01.52.05:567][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.20-01.52.05:567][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.20-01.52.05:567][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.20-01.52.05:569][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.02.20-01.52.05:569][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.02.20-01.52.05:570][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.02.20-01.52.05:570][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.02.20-01.52.05:570][506]LogInit: FAudioDevice initialized.
+[2023.02.20-01.52.05:570][506]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2023.02.20-01.52.05:573][506]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.02.20-01.52.05:575][506]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.02.20-10.52.05
+[2023.02.20-01.52.05:575][506]LogWorld: Bringing up level for play took: 0.001433
+[2023.02.20-01.52.05:577][506]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.02.20-01.52.05:580][506]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=90.212
+[2023.02.20-01.52.05:581][506]PIE: サーバーにログインしました
+[2023.02.20-01.52.05:581][506]PIE: PIE合計開始時間 0.068 秒。
+[2023.02.20-01.52.13:889][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.52.13:889][958]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.02.20-01.52.13:889][958]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.02.20-01.52.13:889][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.52.13:890][958]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.02.20-01.52.13:896][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.20-01.52.13:899][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.20-01.52.13:919][958]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.20-01.52.13:920][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.20-01.52.13:921][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.02.20-01.52.13:926][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.20-01.52.13:929][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.02.20-01.52.14:051][959]LogPlayLevel: Display: Destroying online subsystem :Context_12
